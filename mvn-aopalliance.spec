@@ -4,7 +4,7 @@
 #
 Name     : mvn-aopalliance
 Version  : 1.0
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
 Source0  : https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
 Source1  : https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
@@ -29,11 +29,11 @@ data components for the mvn-aopalliance package.
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/aopalliance/e/1.0
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/aopalliance/e/1.0
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/aopalliance/aopalliance/1.0
+cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/aopalliance/aopalliance/1.0
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/aopalliance/e/1.0
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/aopalliance/e/1.0
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/aopalliance/aopalliance/1.0
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/aopalliance/aopalliance/1.0
 
 
 %files
@@ -41,5 +41,5 @@ cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/aopalliance/e/1.0
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/aopalliance/e/1.0/aopalliance-1.0.jar
-/usr/share/java/.m2/repository/aopalliance/e/1.0/aopalliance-1.0.pom
+/usr/share/java/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+/usr/share/java/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
